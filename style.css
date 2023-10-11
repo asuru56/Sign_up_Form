@@ -1,0 +1,26 @@
+@font-face{
+font-family: Norse-Bold;
+src: url('Norse-Bold.otf') format('opentype');
+}
+
+.Odin{
+    font-family: Norse-Bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+img {
+    float: left;
+    height: auto;
+    width: 40%;
+    /* You can specify the width and other styles for the image here */
+}

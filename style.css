@@ -44,13 +44,35 @@ body {
 
 .text_above {
     position: absolute;
-    top: 150px; /* Adjust the value to position the text as desired */
-    left: 50px; /* Adjust the value to position the text as desired */
+    top: 170px; /* Adjust the value to position the text as desired */
+    left: 150px; /* Adjust the value to position the text as desired */
     z-index: 2;
+    text-align: center;
     color: white; /* Set the text color */
     background-color: rgba(0,0,0,0.5);/* Set a background color for better visibility */
     padding: 10px; /* Add padding to the text for spacing */
-    font-size: 16px; /* Set the font size as needed */
+    font-size: 30px; /* Set the font size as needed */
     font-family: Norse-Bold;
     width: 100%;
+}
+
+.right{
+    margin-left: auto; /* Push the content to the right */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f0f0f0; /* Set the background color */
+    text-align: center;
+    z-index: 1;
+}
+
+.text{
+    position:absolute; 
+    top: 50px; 
+    right:150px;  
+    left:720px;
+    z-index:2;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    
 }
